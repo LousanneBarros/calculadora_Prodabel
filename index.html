@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" />
+    <script src="Display.js" type="text/javascript"></script>
+    <script src="Calculadora.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <!--A ideia para essa calculadora é construir uma similar a um aplicativo da app Store, com
+    fundo preto, teclas numéricas de 0 a 9 e a vírgula com cinza escuro e letra branca, as 4 
+    operações aritméticas e     igualdade com fundo laranja e letra na cor branca. As últimas
+    teclas seria %, x^2 com fundo cinza mais claro e letra na cor preta. Utilizei uma proposta de calculadora
+    disponibilizada no GitHub e fiz minhas adequações.-->
+    <div class="container">
+        <div class="calculadora">
+            <div class="display">
+                <div id="valor-anterior"></div>
+                <div id="valor-actual"></div>
+            </div>
+            <button class="operador2" id="op1" onclick="display.borrarTodo()">C</button>
+            <button class="operador2" id="op1" onclick="display.borrar()">&larr;</button>
+            <button class="operador" name="op" id="op1" value="porcentagem">%</button>
+            <button class="operador" name="op" id="op" value="dividir">&divide;</button>
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="operador" name="op" id="op" value="multiplicar">x</button>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="operador" name="op" id="op" value="restar">-</button>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button class="operador" name="op" id="op" value="sumar">+</button>
+            <button class="numero">0</button>
+            <button class="numero">.</button>
+            <button class="operador" name="op" id="op1" value="potenciacao">x&sup2;</button>
+            <button class="operador" name="op" id="op" value="igual">=</button>
+        </div>
+    </div>
+
+    <script>
+        
+    </script>
+</body>
+</html>
